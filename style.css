@@ -1,172 +1,172 @@
 
 .page{
-	min-width: 340px;
-	max-width: 1600px;
-	font-family: 'Helvetica Neue', Arial, sans-serif;
-	margin: 0px;
-	}
+min-width: 340px;
+max-width: 1600px;
+font-family: 'Helvetica Neue', Arial, sans-serif;
+margin: 0px;
+}
 
 .header{
-	height:100vh;
-	min-height: 20em;
-	max-height: 38em;
-	background-color: #F2F2F2;
-	display: flex;
-	font-size: 20px;
-	position: relative;
+height:100vh;
+min-height: 20em;
+max-height: 38em;
+background-color: #F2F2F2;
+display: flex;
+font-size: 20px;
+position: relative;
 
 }
 
 .header__title {
-	font-size: 5em;
-	max-width: 5.5em;
-	position: relative;
-	margin: auto 0.5em;
-	font-weight: bold;
-	z-index: 1;
-	}
+font-size: 5em;
+max-width: 5.5em;
+position: relative;
+margin: auto 0.5em;
+font-weight: bold;
+z-index: 1;
+}
 
 .logo {
-	position: absolute;
-	top: 2em;
-	left: 2.7em;
+position: absolute;
+top: 2em;
+left: 2.7em;
 }
 
 .main-img {
-	position: absolute;
-	bottom:0;
-	right:0;
-	width: 38em;
-    height: auto;
-    max-width: 100%;
+position: absolute;
+bottom:0;
+right:0;
+width: 38em;
+height: auto;
+max-width: 100%;
 }
 
 .header__text{
-	position: absolute;
-	bottom: 1em;
-	left: 2.2em;
-	max-width: 19em;
-	min-width: 19em;
-	font-size: 1.1em;
-	line-height: 1.3em;
+position: absolute;
+bottom: 1em;
+left: 2.2em;
+max-width: 19em;
+min-width: 19em;
+font-size: 1.1em;
+line-height: 1.3em;
 }
 
 .header__link {
-	text-decoration: none;
-	color: #2F80ED;
-	cursor: pointer;
-	transition: opacity 0.3s ease;
+text-decoration: none;
+color: #2F80ED;
+cursor: pointer;
+transition: opacity 0.3s ease;
 }
 
 .header__link:hover {
-	opacity: 0.8;
+opacity: 0.8;
 }
 
 .cards 
- {
-	display: flex;
-	justify-content: space-between;
-	}
+{
+display: flex;
+justify-content: space-between;
+}
 
 .section-two-column{
-	display: flex;
-	justify-content: space-between;	
-	width: 80%;
-	margin: 0 auto;
-	}
+display: flex;
+justify-content: space-between;	
+width: 80%;
+margin: 0 auto;
+}
 
 .section-block {
-	margin-top: 100px;
+margin-top: 100px;
 }	
 
 .section-block__title {
-	width: 184px;
-   	font-size: 1.2em;
-  	color: #2F80ED;
-  	font-weight: normal;
-   	margin-right: 3.6em; 
-   	margin-top: 0; 
-  }
+width: 184px;
+	font-size: 1.2em;
+	color: #2F80ED;
+	font-weight: normal;
+	margin-right: 3.6em; 
+	margin-top: 0; 
+}
 
 .section-block__text {
-	font-size: 1.5em;
-	margin: 0 auto;
-	line-height: 1.4em;
-	}
+font-size: 1.5em;
+margin: 0 auto;
+line-height: 1.4em;
+}
 
 .section-block__text:not(:first-child)  {
-	margin-top: 1em;
+margin-top: 1em;
 }
 
 
 .section {
-	width: 80%;
-	margin: 0 auto;
-	}
+width: 80%;
+margin: 0 auto;
+}
 
 .section__title {
-	font-size: 3.6em;
-	text-align: center;
-	font-weight: bold;
-	margin: 100px 0 20px 0;
-	}
+font-size: 3.6em;
+text-align: center;
+font-weight: bold;
+margin: 100px 0 20px 0;
+}
 
 .section__second-title{
-	font-size: 1.6em;
-	text-align: center;
-	
-	display: block;
+font-size: 1.6em;
+text-align: center;
+
+display: block;
 
 }
 
 .cards {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin: 0 auto;
-	font-size: 1.1em; 
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 0 auto;
+font-size: 1.1em; 
 
 }
 
 .cards__item{
-	width: 16em;
-	text-align: center;
-	padding: 0.2em;
-	margin: 0.9em;
-	overflow: hidden;
+width: 16em;
+text-align: center;
+padding: 0.2em;
+margin: 0.9em;
+overflow: hidden;
 }
 
 .cards__item:not(first-child){
-	margin-top: 2.6em;
+margin-top: 2.6em;
 }
 
 
 .cards__item:last-child{
-	align-self: flex-start;
+align-self: flex-start;
 }
 
 .cards__img {
-	width: 160px;
-	height: 160px;
-	border-radius: 50%;
+width: 160px;
+height: 160px;
+border-radius: 50%;
 }
 
 .cards__title {
-	margin: 1.6em 0 .4em 0;
-	font-size: 1.3em;
+margin: 1.6em 0 .4em 0;
+font-size: 1.3em;
 }
 .cards__text{
-	margin: 0;
-	padding:0;
+margin: 0;
+padding:0;
 }
 
 .video {
-	display: flex;
-	justify-content: space-around;
+display: flex;
+justify-content: space-around;
 }
 
 .video__item {
-	width: 50%;
-	height: 300px;
-	margin: auto 1.2em;
+width: 50%;
+height: 300px;
+margin: auto 1.2em;
 }
